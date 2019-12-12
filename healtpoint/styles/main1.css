@@ -1,0 +1,669 @@
+﻿*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+.wrapper-dropdown-2 {
+    position: relative;
+    padding: 10px 15px;
+    /* Styles */
+    background: #fff;
+    border-left: 5px solid grey;
+    cursor: pointer;
+    outline: none;
+    width: 5%;
+    margin-left: 88%;
+    z-index: 2;
+    margin-top: 2%;
+}
+
+    .wrapper-dropdown-2:after {
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        margin-top: -3px;
+        border-width: 6px 6px 0 6px;
+        border-style: solid;
+        border-color: grey transparent;
+    }
+
+    .wrapper-dropdown-2 .dropdown {
+        /* Size & position */
+        position: absolute;
+        top: 60%;
+        /* Styles */
+        background: azure;
+        list-style: none;
+        /* Hiding */
+        opacity: 0;
+        pointer-events: none;
+    }
+
+        .wrapper-dropdown-2 .dropdown li a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            border-left: 5px solid;
+            padding: 10px;
+            transition: all 0.3s ease-out;
+        }
+
+        .wrapper-dropdown-2 .dropdown li:nth-child(1) a {
+            border-left-color: #00ACED;
+        }
+
+        .wrapper-dropdown-2 .dropdown li:nth-child(2) a {
+            border-left-color: #4183C4;
+        }
+
+        .wrapper-dropdown-2 .dropdown li:nth-child(3) a {
+            border-left-color: #3B5998;
+        }
+
+        .wrapper-dropdown-2 .dropdown li i {
+            margin-right: 5px;
+            color: inherit;
+            vertical-align: middle;
+        }
+
+        /* Hover state */
+
+        .wrapper-dropdown-2 .dropdown li:hover a {
+            color: grey;
+            background-color: darkgrey;
+        }
+
+    .wrapper-dropdown-2.active:after {
+        border-width: 0 6px 6px 6px;
+    }
+
+    .wrapper-dropdown-2.active .dropdown {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+
+
+
+
+.own-header {
+    background: mediumseagreen;
+    padding: 11px;
+    border-radius: 20px;
+    margin: 5px auto !important;
+}
+
+.own-header-img {
+    height: 18vw !important;
+    width: 17vw;
+    margin-top: -70%;
+    margin-left: 7%;
+}
+
+.nav-header {
+    margin-top: 25px;
+}
+
+.img-row {
+    position: absolute;
+}
+
+.own-header span {
+    font-size: 3.2vw;
+    font-family: serif;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25px;
+    color: white;
+    display: inline-block;
+    font-size: 2vw;
+}
+
+.btn1 {
+    padding: 14px;
+    background-color: navy;
+    color: white;
+    /* font-weight: 200; */
+    margin: 7%;
+    border-radius: 25px;
+    border-width: thin;
+}
+
+.form1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    width: 75%;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    background-color: lightcyan;
+    margin: 5% 12%;
+}
+
+    .form1 .input9 {
+        height: 25px;
+        margin-top: 7px;
+        margin-left: -21px !important;
+        width: 263px;
+    }
+
+.login-img {
+    top: -31px;
+    position: relative;
+}
+
+
+
+
+#Button2, #Button3 {
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+    padding: 2% 3%;
+    border-radius: 1em;
+    float: left;
+    margin-left: 38%;
+}
+
+    #Button3:hover, #Button3:focus, #Button2:hover, #Button2:focus {
+        color: white;
+        border-radius: 2em;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        background: black;
+    }
+
+/*#div{
+    float: left;
+    width: 32%;
+    position: absolute;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    margin: 3% 3% 3% 4% !important;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3.5%;
+    border-width: thick;
+}
+#div1{
+    float: right;
+    width: 42%;
+    position: relative;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    margin: 1% 6% 4% 50% !important;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 4.6%;
+    border-width: thick;
+
+   }
+#div5{
+    float: left;
+    width: 32%;
+    position: absolute;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    margin: 3% 3% 3% 4% !important;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3.5%;
+    border-width: thick;
+}
+#div6{
+float: right;
+    width: 40%;
+    position: relative;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    margin: 0.5% 6% 4% 50% !important;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 5.1%;
+    border-width: thick;
+
+   }*/
+.form2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    margin: 45px !important;
+    background-color: lightcyan;
+}
+
+.block1 {
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    margin: 3% 3% 3% 4% !important;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3.5%;
+    border-width: thick;
+}
+
+#admin {
+    float: right;
+    margin: 3% 4% 3% 0%;
+    width: 20%;
+    height: 20%;
+}
+
+
+
+#Button5 {
+    color: white;
+    background-color: navy;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 0.8em;
+    overflow: hidden;
+    height: 40px !important;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+#hyperlink1 {
+    float: right;
+    color: black;
+    font-weight: normal;
+    margin-right: 8%;
+    text-decoration: underline;
+}
+
+    #hyperlink1:hover, #hyperlink1:focus {
+        color: red;
+    }
+
+#StaffLoginID, #StaffPassword {
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#hyperlink2 {
+    color: black;
+    font-weight: normal;
+    float: left;
+}
+
+#Staff {
+    color: black;
+    font-weight: normal;
+    float: left;
+    margin-left: 22%;
+}
+
+#hyperlink2:hover, #hyperlink2:focus {
+    color: red;
+}
+
+#hyperlink3 {
+    font-weight: normal;
+    float: right;
+    margin-right: 3%;
+    color: black;
+}
+
+
+/*#Button6{
+  color:white;
+  margin-bottom: 3%;
+  background-color: navy;
+  font-weight: bold;
+  padding: 0.5% 1.5%;
+  border-radius: 0.8em;
+  margin-left: 2%
+}
+#staff1{
+    margin-left: 23%;
+}
+#staff2{
+    float:right;
+    margin-right: 6%;
+    margin-top: 3%;
+}
+#OrgEmail,#UserName,#StaffPassword1, #StaffPassword2{
+        float:left;
+        margin-left: .5em;
+        margin-bottom: .5em;
+        width: 30%;
+}
+#table1{
+        margin: 4% 9%;
+    }
+#table2{
+        margin: 2% 9%;
+    }
+#table1, #table2 tr{
+    color: forestgreen;
+}
+#info #mrn, #name, #gender, #Label10{
+   
+    float: left;
+    width: 30%;
+    text-align: left;
+    padding-left:5%;
+}
+#trow{
+    color: black;
+}
+
+
+#mrnDIV,#nameDIV{
+    text-align: center;
+    align-items: center;
+
+}*/
+#RadioButtonSearch {
+    margin-right: auto;
+    text-align: initial;
+    align-content: initial;
+    display: block;
+}
+/*body form p{
+    float: left;
+    margin-left:10%;
+    margin-top: 0% !important;
+}
+#name1, #mrn1{
+    float: left;
+    margin-left: 40%;
+}
+*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: navy;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1
+}
+/*dropdown in default1 page*/
+
+
+/*questions part*/
+#form3 {
+    text-align: center;
+    align-content: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: navy;
+    width: 90%;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px darkslategray;
+    margin: 6% !important;
+    background-color: lightcyan;
+}
+
+form3 div {
+    border-bottom: solid;
+}
+
+#quest_1, #quest_2, #quest_3, #quest_4, #quest_5, #quest_6, #quest_7, #quest_8, #quest_9, #quest_10 {
+    color: darkgreen;
+    font-size: 120%;
+    text-align: justify !important;
+}
+
+#quest1, #quest2, #quest3, #quest4, #quest5, #quest6, #quest7, #quest8, #quest9, #quest10 {
+    margin: 0% 5% 0% 6%;
+}
+
+#RadioButtonList1, #RadioButtonList2, #RadioButtonList3, #RadioButtonList4, #RadioButtonList5, #RadioButtonList6, #RadioButtonList7, #RadioButtonList8, #RadioButtonList9, #RadioButtonList10, ListItem {
+    color: black;
+    width:100%;
+    font-size: 86%;
+    vertical-align: middle;
+    float: none;
+    padding-left: 5%;
+    text-align: left;
+    margin-top: 1%;
+    position: relative;
+    margin-left: 3%;
+}
+/*.own-table{
+   
+    margin-left: 33%;
+    position:relative;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.own-table1{
+   
+    margin-left: 17%;
+    position:relative;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}*/
+
+
+/*logout button*/
+#mySidenav a {
+    position: fixed;
+    right: -96px;
+    transition: 0.3s;
+    padding: 7px;
+    width: 133px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mySidenav a:hover {
+        right: 0;
+    }
+
+#about {
+    margin-top: 0%;
+    background-color: black;
+}
+
+.navigation {
+    width: 100%;
+    background-color: black;
+    margin-top: -3%;
+    margin-bottom: 7%;
+    padding-right: 2%;
+}
+
+#logoutimg {
+    width: 25px;
+    border-radius: 50px;
+}
+
+.logout {
+    font-size: .8em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    right: -18px;
+    bottom: -4px;
+    overflow: hidden;
+    letter-spacing: 3px;
+    opacity: 0;
+    transition: opacity .45s;
+    -webkit-transition: opacity .35s;
+}
+
+.buttonlog {
+    text-decoration: none;
+    float: right;
+    padding: 11px;
+    margin: 15px;
+    color: white;
+    width: 43px;
+    background-color: black;
+    transition: width .35s;
+    -webkit-transition: width .35s;
+    overflow: hidden;
+    z-index: 1111;
+}
+
+.content1 {
+    display: none;
+}
+
+.menu1:hover .content1 {
+    display: block;
+}
+
+.own-table {
+}
+
+.buttonlog:hover {
+    width: 140px;
+}
+
+    .buttonlog:hover .logout {
+        opacity: .9;
+    }
+
+a {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    header img {
+        min-height: 18%;
+        min-width: 19%;
+    }
+
+    header h1 {
+        font-size: 75%;
+    }
+
+    #links {
+    }
+
+    li a {
+        font-size: 80%;
+    }
+
+    #form1, #form2 {
+        font-size: 60%;
+    }
+
+    #form2 {
+        padding-bottom: 13%;
+    }
+
+    #Button2, #Button3 {
+        font-size: 50%;
+    }
+
+    #Button1 {
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+
+    #mrn, #clinicDropDownList, #firstName, #lastName, #nickName, #middleName, #suffixDropDownList, #genderDropDownList, #dob, #ssn, #phoneNumber, #emailAddress, #address1, #city, #state, #postalCode {
+        float: none;
+        width: auto;
+    }
+
+    #table1 {
+        position: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 592px) {
+    .own-header-img {
+        .own-header-img
+
+{
+    height: 18vw !important;
+    width: 17vw;
+    position: relative;
+    top: -122px;
+    left: 14px;
+}
+
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .own-header-img {
+        height: 18vw !important;
+        width: 17vw;
+        .own-header-img
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .own-header-img {
+        height: 18vw !important;
+        width: 17vw;
+        margin-top: -73%;
+        margin-left: 8%;
+    }
+
+    .for {
+        margin-left: -23%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .own-header-img {
+        height: 18vw !important;
+        width: 17vw;
+        margin-top: -72%;
+        margin-left: 10%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .own-header-img {
+        height: 18vw !important;
+        width: 17vw;
+        margin-top: -70%;
+        margin-left: 7%;
+    }
+}

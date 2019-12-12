@@ -1,0 +1,91 @@
+.img{
+    padding-bottom: 6%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.logogreen{
+
+    height: 53%;
+    width: 31%;
+    margin-left: 68%;
+    margin-top: -5%;;
+
+}
+a{
+    cursor: pointer;
+    font-weight: lighter;
+    color: red;
+
+}
+.content{
+    margin-left: 16%;
+    font-size: 4vw;
+
+}
+p{
+    font-weight: bolder;
+    background-color: #a0d5b199;
+    color: black;
+    margin-right: 5%;
+    padding: 0% 1%;
+    border-color: black;
+    border-radius: 25px;
+    border-width: 1%;
+}
+ a{
+    animation: color-me-in 5s infinite;
+}
+@keyframes color-me-in {
+    0% {
+        color: navy;
+    }
+    /* Adding a step in the middle */
+    20%{
+        color: red;
+    }
+    40%{
+        color: #0b2e13;
+    }
+    60% {
+        color: lightblue;
+    }
+    80%{
+        color: orangered;
+    }
+    100% {
+        color: black;
+    }
+}
+
+@media (max-width: 592px) and (-webkit-min-device-pixel-ratio: 1) {
+    padding-bottom: 19.8%;
+}
+@media (min-width: 576px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1){
+    padding-bottom: 19.8%;
+}
+@media (min-width: 768px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 1){
+    padding-bottom: 19.8%;
+}
+
+@media (min-width: 992px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .img{
+        padding-bottom: 29.8%;
+    }
+}
+
+
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1){
+    .img{
+        padding-bottom: 6.64%
+    }
+}
+
+
+
